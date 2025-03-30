@@ -3,13 +3,13 @@ public class TrafficLights {
 
         /*Escribe un programa que basado en el color del semáforo verde, amarillo 
         o rojo determine las acciones de un conductor*/
-        String color = "azul"; 
+        String color = "lila"; 
         
         //Si es verde imprime en la terminal: Puedes seguir
-        if (color == "verde") {
+        if (color.equals( "verde")) {
             System.out.println("Puedes pasar");
         } else if 
-            (color == "amarillo") {
+            (color.equals( "amarillo")) {
                 System.out.println("Ten cuidado");
             } else if 
             (color.equals("rojo")) {
@@ -29,7 +29,3 @@ public class TrafficLights {
         //Si es otro color imprime en la terminal: El semáforo está dañado
 
         //Cambia el valor de la variable, corre el programa y mira el resultado 
-
-    
-    
-
