@@ -20,7 +20,7 @@ public class Quiz {
             System.out.println("\tc) Martha Ackelsberg");
             System.out.println("\td) Jane Jacobs");
         String respuesta1 = scanner.nextLine();
-            if(respuesta1.equalsIgnoreCase("a")) {
+            if(respuesta1.equalsIgnoreCase("b")) {
                 puntaje += 5;
             }
             
@@ -44,7 +44,7 @@ public class Quiz {
             System.out.println("\td) Inventora del sistema de comunicaciones de salto de frecuencia, base del wifi, bluetooth y GPS");
         
         String respuesta3 = scanner.nextLine();
-        if(respuesta3.equalsIgnoreCase("b y d")) {
+        if(respuesta3.equalsIgnoreCase("b")) {
             puntaje += 5;
         }    
             //4 pregunta
